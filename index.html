@@ -52,9 +52,9 @@
 
     .slide-logo {
       position:absolute; top:1.1rem; left:50%; transform:translateX(-50%);
-      font-weight:900; font-size:1rem; letter-spacing:.2em;
-      color:var(--cream); opacity:.85;
+      display:flex; align-items:center;
     }
+    .slide-logo img { height:26px; width:auto; filter:invert(1); mix-blend-mode:screen; opacity:.85; }
 
     #navDots {
       position:fixed; bottom:1.6rem; left:50%; transform:translateX(-50%);
@@ -173,8 +173,8 @@
     <span class="client-chip">Para: Tienda Only ✦</span>
     <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
       <div class="anim">
-        <div style="font-size:clamp(4.5rem,11vw,9rem);font-weight:900;letter-spacing:.06em;color:var(--cream);line-height:1">DOOKU</div>
-        <div style="font-size:clamp(.75rem,1.4vw,1rem);font-weight:300;letter-spacing:.45em;color:var(--cream);text-transform:uppercase;margin-top:.3rem;opacity:.75">NUEVOS HORIZONTES</div>
+        <img src="logo-claim.png" alt="Dooku — Nuevos Horizontes"
+          style="width:clamp(220px,32vw,420px);height:auto;filter:invert(1);mix-blend-mode:screen;opacity:.95">
       </div>
       <div class="anim" style="font-size:clamp(1.4rem,2.5vw,2rem);font-weight:400;margin:2rem 0 .75rem">Consultora de E-Commerce</div>
       <div class="anim" style="font-family:'Caveat',cursive;font-size:1.15rem;color:var(--dim);margin-bottom:1.75rem">Gestión · Estrategia · Crecimiento en Mercado Libre</div>
@@ -195,34 +195,9 @@
   </div>
 
 
-  <!-- ══════ S1: POR QUÉ MELI ══════ -->
-  <div class="slide" id="s1">
-    <div class="slide-logo">DOOKU</div>
-    <div class="sc">
-      <div class="anim" style="margin-bottom:.9rem">
-        <div class="label">El canal</div>
-        <h2 class="slide-title">¿Por qué vender en Mercado Libre?</h2>
-      </div>
-      <div class="hero-banner anim">
-        <div class="hero-num">1 de 2</div>
-        <div class="hero-text"><strong>compras online en Argentina se hacen por Mercado Libre.</strong><br>Es el canal con mayor volumen, infraestructura propia y compradores activos del país.</div>
-      </div>
-      <div class="stats-grid anim">
-        <div class="stat-card accent"><div class="stat-num">35<span>M+</span></div><div class="stat-label">compradores activos en Argentina</div></div>
-        <div class="stat-card accent"><div class="stat-num"><span>+</span>60<span>%</span></div><div class="stat-label">del e-commerce argentino pasa por MELI</div></div>
-        <div class="stat-card accent"><div class="stat-num">24<span>/7</span></div><div class="stat-label">canal activo sin depender de redes</div></div>
-        <div class="stat-card"><div class="stat-num" style="font-size:1.3rem">FLEX <span>&</span> FULL</div><div class="stat-label">logística nacional sin estructura propia</div></div>
-        <div class="stat-card"><div class="stat-num" style="font-size:1.3rem"><span>Confianza</span></div><div class="stat-label">el comprador sabe que su compra está protegida y garantizada</div></div>
-        <div class="stat-card"><div class="stat-num" style="font-size:1.3rem">2 <span>clics</span></div><div class="stat-label">compra en segundos, entrega en 24 hs, sin fricción</div></div>
-      </div>
-    </div>
-    <svg class="deco" style="top:10%;right:4%;width:48px;opacity:.45" viewBox="0 0 50 50" fill="none"><path d="M25 4v42M4 25h42M8 8l34 34M42 8 8 42" stroke="#DC4633" stroke-width="2.2" stroke-linecap="round"/></svg>
-  </div>
-
-
-  <!-- ══════ S2: EXPERIENCIA ══════ -->
+  <!-- ══════ S1: EXPERIENCIA ══════ -->
   <div class="slide" id="s2">
-    <div class="slide-logo">DOOKU</div>
+    <div class="slide-logo"><img src="logo-dooku.png" alt="Dooku"></div>
     <div class="sc">
       <div class="anim" style="margin-bottom:1.1rem">
         <div class="label">Por qué elegirnos</div>
@@ -256,7 +231,7 @@
 
   <!-- ══════ S3: POR QUÉ TIENDA ONLY + DOOKU ══════ -->
   <div class="slide" id="s3">
-    <div class="slide-logo">DOOKU</div>
+    <div class="slide-logo"><img src="logo-dooku.png" alt="Dooku"></div>
     <div class="sc">
       <div class="anim" style="margin-bottom:1.1rem">
         <div class="label">Propuesta personalizada</div>
@@ -290,7 +265,7 @@
 
   <!-- ══════ S4: GESTIÓN DE CUENTA ══════ -->
   <div class="slide" id="s4">
-    <div class="slide-logo">DOOKU</div>
+    <div class="slide-logo"><img src="logo-dooku.png" alt="Dooku"></div>
     <div class="sc">
       <div class="anim" style="margin-bottom:.5rem">
         <div class="label">Modelo de servicio — Tier 1</div>
@@ -333,7 +308,7 @@
 
   <!-- ══════ S5: CONSULTORÍA ══════ -->
   <div class="slide" id="s5">
-    <div class="slide-logo">DOOKU</div>
+    <div class="slide-logo"><img src="logo-dooku.png" alt="Dooku"></div>
     <div class="sc">
       <div class="anim" style="margin-bottom:.5rem">
         <div class="label">Modelo de servicio — Tier 2</div>
@@ -372,7 +347,7 @@
 
   <!-- ══════ S6: ACCIONABLES Y OBJETIVO ══════ -->
   <div class="slide" id="s6">
-    <div class="slide-logo">DOOKU</div>
+    <div class="slide-logo"><img src="logo-dooku.png" alt="Dooku"></div>
     <div class="sc">
       <div class="anim" style="margin-bottom:.6rem">
         <div class="label">Plan de trabajo · 3 meses</div>
@@ -422,7 +397,7 @@
 
   <!-- ══════ S7: COSTOS ══════ -->
   <div class="slide" id="s7">
-    <div class="slide-logo">DOOKU</div>
+    <div class="slide-logo"><img src="logo-dooku.png" alt="Dooku"></div>
     <div class="sc">
       <div class="anim" style="position:relative;display:inline-block;margin-bottom:1.1rem">
         <h2 class="slide-title">Costos del Servicio</h2>
@@ -466,7 +441,7 @@
 
   <!-- ══════ S8: CÓMO TRABAJAMOS ══════ -->
   <div class="slide" id="s8">
-    <div class="slide-logo">DOOKU</div>
+    <div class="slide-logo"><img src="logo-dooku.png" alt="Dooku"></div>
     <div class="sc">
       <div class="anim" style="position:relative;display:inline-block;margin-bottom:2.2rem">
         <h2 class="slide-title">¿Cómo trabajamos?</h2>
@@ -497,7 +472,7 @@
 
   <!-- ══════ S9: PRÓXIMOS PASOS ══════ -->
   <div class="slide" id="s9">
-    <div class="slide-logo">DOOKU</div>
+    <div class="slide-logo"><img src="logo-dooku.png" alt="Dooku"></div>
     <div class="sc">
       <div class="anim" style="margin-bottom:1.4rem">
         <div class="label">Arrancamos cuando quieras</div>
@@ -535,7 +510,10 @@
   <!-- ══════ S10: CIERRE ══════ -->
   <div class="slide" id="s10">
     <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
-      <div style="font-size:clamp(4rem,12vw,9rem);font-weight:900;letter-spacing:.06em;color:var(--cream)" class="anim">DOOKU</div>
+      <div class="anim">
+        <img src="logo-dooku.png" alt="Dooku"
+          style="width:clamp(200px,26vw,360px);height:auto;filter:invert(1);mix-blend-mode:screen;opacity:.95">
+      </div>
       <div class="anim" style="position:relative;display:inline-block;margin-top:.6rem">
         <svg viewBox="0 0 180 80" width="140" style="position:absolute;top:-65px;left:-25px;pointer-events:none" fill="none">
           <path d="M40 10 Q10 40 75 65" stroke="#DC4633" stroke-width="2.2" stroke-linecap="round" fill="none"/>
